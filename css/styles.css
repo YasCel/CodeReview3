@@ -1,0 +1,20 @@
+#favoriteList {
+  display: none;
+}
+
+#favoriteList ul {
+  list-style: none;
+}
+
+h1 {
+ text-decoration-style: dashed;
+ color: #da507b;
+}
+
+.form-group {
+  color: #355f72;
+}
+
+ul {
+  color:#a5a5a8;
+}
