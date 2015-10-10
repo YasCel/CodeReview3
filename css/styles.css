@@ -1,3 +1,7 @@
 #favoriteList {
-  display:none;
+  display: none;
+}
+
+#favoriteList ul {
+  list-style: none; 
 }
