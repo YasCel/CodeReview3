@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $(#blanks form).submit(function(event){
+$(document).ready(function() {
+  $("#blanks form").submit(function(event) {
     var name1Input = $("input#name1").val();
     var favoriteFoodInput = $("input#favoriteFood").val();
     var favoriteBookInput = $("input#favoriteBook").val();
@@ -11,5 +11,10 @@ $(document).ready(function(){
     $(".favoriteBook").text(favoriteBookInput);
     $(".favoriteMovie").text(favoriteMovieInput);
     $(".favoriteCity").text(favoriteCity);
+
+    $("#favoriteList").show();
+
+    event.preventDefault();
+
   });
 });
